@@ -12,8 +12,9 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-import com.bioskopPoy.model.reservation.ReservationCinema;
-import com.bioskopPoy.model.reservation.ReservationTheatre;
+import com.BioskopPoyyy.reservation.ReservationCinema;
+import com.BioskopPoyyy.reservation.ReservationTheatre;
+
 
 @Entity
 @Table(name = "guest")
